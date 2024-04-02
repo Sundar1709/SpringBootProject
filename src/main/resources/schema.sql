@@ -4,4 +4,5 @@ title varchar(250) not null,
 started_on timestamp not null,
 completed_on timestamp not null,
 miles INT not null,
+location varchar(100) not null,
 primary key(id));

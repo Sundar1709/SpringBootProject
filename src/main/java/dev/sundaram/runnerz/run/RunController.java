@@ -12,10 +12,9 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/runs")
 public class RunController {
-    private final List<Run> runs = new ArrayList<>();
     private final RunRepository runRepository;
 
-    public RunController(RunRepository runRepository) {
+     RunController(RunRepository runRepository) {
         this.runRepository = runRepository;
     }
 
